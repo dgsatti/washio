@@ -6,7 +6,7 @@ margin: 0 auto;
 .itemlist li {
 display: table-cell;
 width: 33.333333%;
-padding: 100px;
+padding: 5px;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
