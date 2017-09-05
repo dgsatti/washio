@@ -6,7 +6,7 @@ margin: 0 auto;
 .itemlist li {
 display: table-cell;
 width: 33.333333%;
-padding: 5px;
+padding: 10px;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
@@ -15,6 +15,6 @@ clear: left;
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
 .itemlist dt { font-size: .9em; font-weight: 700; }
-.itemlist dd { margin-top: .2em; font-size: .8em; }
+.itemlist dd { margin-top: .2em; font-size: .10em; }
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee; }
 .itemlist img { width: 100%; height: auto; }
