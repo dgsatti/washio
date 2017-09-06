@@ -13,12 +13,6 @@ vertical-align: top;
 .itemlist li:nth-child(3n+1) {
 clear: left;
 }
-@media screen and (max-width: 767px) {
-.itemlist li { width: 50%; }
-}
-@media screen and (max-width: 414px) {
-.itemlist li { width: auto; }
-}
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
