@@ -10,15 +10,6 @@ padding: 10px;
 .itemlist li:nth-child(3n+1) {
 clear: left;
 }
-@media screen and (max-width: 767px) {
-.itemlist li { width: 50%; }
-.itemlist li:nth-child(2n+1) { clear: left; }
-.itemlist li:nth-child(3n+1) { clear: none; }
-}
-@media screen and (max-width: 414px) {
-.itemlist li { width: 100%; }
-.itemlist li:nth-child(2n+1) { clear: none; }
-}
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
