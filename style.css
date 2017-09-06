@@ -14,7 +14,7 @@ clear: left;
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
-.itemlist dt { font-size: .10em; font-weight: 700; }
-.itemlist dd { margin-top: .1em; font-size: .10em; }
+.itemlist dt { font-size: .9em; font-weight: 700; }
+.itemlist dd { margin-top: .2em; font-size: .8em; }
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee; }
 .itemlist img { width: 100%; height: auto; }
