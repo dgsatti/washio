@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #fafafa;
+}
+li a {
+  cursor: pointer;
+  display: block;
+  padding: 1em;
+}
+
+/* --------------------------------------------------
+   Float
+   -------------------------------------------------- */
+
+.float li {
+  float: left;
+}
+.float li:nth-child(n+2) {
+  padding-left: 1px;
+}
+.float a {
+  background: #86c0de;
+}
+.float a:hover {
+  background: #68abcd;
+}
+
+.floatnav {
+  text-align: center;
+  background: #fafafa;
+}
+.floatnav ul {
+  display: inline-block;
+}
+
+/* --------------------------------------------------
+   Table
+   -------------------------------------------------- */
+
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+.table li {
+  display: table-cell;
+  vertical-align: middle;
+}
+.table li:nth-child(n+2) {
+  padding-left: 1px;
+}
+
+/* --------------------------------------------------
+   Inline-Block
+   -------------------------------------------------- */
+
+.inlineblock li {
+  display: inline-block;
+}
+.inlineblock li:nth-child(n+2) {
+  padding-left: 1px;
+}
+.inlineblock a {
+  background: #86c0de;
+}
+.inlineblock a:hover {
+  background: #68abcd;
+}
+
+/* --------------------------------------------------
+   Flexible
+   -------------------------------------------------- */
+
+.flexible {
+  display: flex;
+}
+.flexible a {
+  position: relative;
+}
+.flexible li:nth-child(1) a { background: tomato; }
+.flexible li:nth-child(2) a { background: orange; }
+.flexible li:nth-child(3) a { background: gold; }
+.flexible li:nth-child(4) a { background: yellowgreen; }
+.flexible li:nth-child(5) a { background: skyblue; }
+.flexible li:nth-child(1) a:hover { background: #f93918; }
+.flexible li:nth-child(2) a:hover { background: #f98b00; }
+.flexible li:nth-child(3) a:hover { background: #f9c800; }
+.flexible li:nth-child(4) a:hover { background: #7dbb00; }
+.flexible li:nth-child(5) a:hover { background: #65bde0; }
+
+/* --------------------------------------------------
+   Item List
+   -------------------------------------------------- */
+
+.itemlist {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.itemlist dl,
+.itemlist dd {
+  margin: 0;
+}
+.itemlist dl {
+  text-align: right;
+}
+.itemlist dt,
+.itemlist .txt {
+  text-align: left;
+}
+.itemlist dt {
+  font-size: .9em;
+  font-weight: 700;
+}
+.itemlist dd {
+  margin-top: .2em;
+  font-size: .8em;
+}
+.itemlist .price {
+  display: inline-block;
+  padding: .1em .5em;
+  background: #eee;
+}
+.itemlist img {
+  width: 100%;
+  height: auto;
+}
+
+/* :::::: float :::::: */
+
+.floatlist li {
+  float: left;
+  width: 33.333333%;
+  padding: 10px;
+}
+
+/* :::::: table :::::: */
+
+.tablelist {
+  display: table;
+}
+.tablelist li {
+  display: table-cell;
+  width: 33.333333%;
+  padding: 10px;
+}
+
+/* :::::: inline-block :::::: */
+
+.inlineblocklist li {
+  display: inline-block;
+  width: 33.333333%;
+  padding: 10px;
+}
+
+/* :::::: flexible :::::: */
+
+.flexiblelist {
+  display: flex;
+}
+.flexiblelist li {
+  padding: 10px;
+}
+
+/* --------------------------------------------------
+   Property list
+   -------------------------------------------------- */
+
+.propertylist,
+.propertylist dd,
+.valuelist {
+  margin: 0;
+}
+.propertylist dt,
+.propertylist dd {
+  line-height: 1.8;
+}
+.propertylist {
+  font-size: 1em;
+}
+.propertylist > dt {
+  margin-bottom: .3em;
+  font-weight: 700;
+}
+.propertylist > dd {
+  font-size: .9em;
+}
+.propertylist > dd + dt {
+  margin-top: 1em;
+}
+
+.propertylist code {
+  padding: .1em .5em;
+  border-radius: 3px;
+  color: #fff;
+  letter-spacing: .05em;
+  background-color: #666;
+}
+.propertylist .initial code {
+  color: inherit;
+  background-color: #eee;
+}
+.propertylist .ie10 {
+  margin-left: .5em;
+  padding: 0;
+  border: 0;
+  color: #999;
+  font-size: .8em;
+  font-weight: 300;
+  background-color: transparent;
+}
+.propertylist .ie10::before { content: "("; }
+.propertylist .ie10::after { content: ")"; }
+
+.valuelist {
+  margin: .5em 0 0 1em;
+}
+.valuelist::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.valuelist dt {
+  clear: left;
+}
+.valuelist dd {
+  border-bottom: 1px dotted #eee;
+}
