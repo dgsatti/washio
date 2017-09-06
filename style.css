@@ -5,8 +5,8 @@ letter-spacing: -.5em;
 }
 .itemlist li {
 display: inline-block;
-width: 210px;
-padding: 5px;
+width: 200px;
+padding: 10px;
 letter-spacing: 0;
 vertical-align: top;
 background-color: #000000;
