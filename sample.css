@@ -65,79 +65,31 @@ li a {
 }
 
 /* --------------------------------------------------
-   Inline-Block
-   -------------------------------------------------- */
-
-.inlineblock li {
-  display: inline-block;
-}
-.inlineblock li:nth-child(n+2) {
-  padding-left: 1px;
-}
-.inlineblock a {
-  background: #86c0de;
-}
-.inlineblock a:hover {
-  background: #68abcd;
-}
-
-/* --------------------------------------------------
-   Flexible
-   -------------------------------------------------- */
-
-.flexible {
-  display: flex;
-}
-.flexible a {
-  position: relative;
-}
-.flexible li:nth-child(1) a { background: tomato; }
-.flexible li:nth-child(2) a { background: orange; }
-.flexible li:nth-child(3) a { background: gold; }
-.flexible li:nth-child(4) a { background: yellowgreen; }
-.flexible li:nth-child(5) a { background: skyblue; }
-.flexible li:nth-child(1) a:hover { background: #f93918; }
-.flexible li:nth-child(2) a:hover { background: #f98b00; }
-.flexible li:nth-child(3) a:hover { background: #f9c800; }
-.flexible li:nth-child(4) a:hover { background: #7dbb00; }
-.flexible li:nth-child(5) a:hover { background: #65bde0; }
-
-/* --------------------------------------------------
    Item List
    -------------------------------------------------- */
 
 .itemlist {
-  max-width: 960px;
-  margin: 0 auto;
+max-width: 960px;
+margin: 0 auto;
+letter-spacing: -.5em;
 }
-.itemlist dl,
-.itemlist dd {
-  margin: 0;
+.itemlist li {
+display: inline-block;
+width: 33.333333%;
+padding: 10px;
+letter-spacing: 0;
+vertical-align: top;
 }
-.itemlist dl {
-  text-align: right;
+.itemlist li:nth-child(3n+1) {
+clear: left;
 }
-.itemlist dt,
-.itemlist .txt {
-  text-align: left;
-}
-.itemlist dt {
-  font-size: .9em;
-  font-weight: 700;
-}
-.itemlist dd {
-  margin-top: .2em;
-  font-size: .8em;
-}
-.itemlist .price {
-  display: inline-block;
-  padding: .1em .5em;
-  background: #eee;
-}
-.itemlist img {
-  width: 100%;
-  height: auto;
-}
+.itemlist dl, .itemlist dd { margin: 0; }
+.itemlist dl { text-align: right; }
+.itemlist dt, .itemlist .txt { text-align: left; }
+.itemlist dt { font-size: .9em; font-weight: 700; }
+.itemlist dd { margin-top: .2em; font-size: .8em; }
+.itemlist .price { display: inline-block; padding: .1em .5em; background: #eee; }
+.itemlist img { width: 100%; height: auto; }
 
 /* :::::: float :::::: */
 
