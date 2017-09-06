@@ -10,6 +10,6 @@ clear: left;
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
 .itemlist dt { font-size: .30em; font-weight: 700; }
-.itemlist dd { margin-top: .0em; font-size: .14em; }
+.itemlist dd { margin-top: .100em; font-size: .14em; }
 .itemlist .price { display: inline-block; padding: .10em .5em; background: #eee; }
 .itemlist img { width: 100%; height: auto; }
