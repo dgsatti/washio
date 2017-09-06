@@ -1,17 +1,21 @@
 .itemlist {
+display: flex;
+flex-wrap: wrap;
 max-width: 1024px;
 margin: 0 auto;
-letter-spacing: -.5em;
 }
 .itemlist li {
-display: inline-block;
-width: 33.333333%;
+flex: 0 1 33.333333%;
 padding: 10px;
-letter-spacing: 0;
-vertical-align: top;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
+}
+@media screen and (max-width: 767px) {
+.itemlist li { flex-basis: 50%; }
+}
+@media screen and (max-width: 414px) {
+.itemlist li { flex-basis: 100%; }
 }
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
