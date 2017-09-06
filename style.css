@@ -1,15 +1,23 @@
 .itemlist {
-display: table;
 max-width: 1024px;
 margin: 0 auto;
 }
 .itemlist li {
-display: table-cell;
+float: left;
 width: 33.333333%;
 padding: 10px;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
+}
+@media screen and (max-width: 767px) {
+.itemlist li { width: 50%; }
+.itemlist li:nth-child(2n+1) { clear: left; }
+.itemlist li:nth-child(3n+1) { clear: none; }
+}
+@media screen and (max-width: 414px) {
+.itemlist li { width: 100%; }
+.itemlist li:nth-child(2n+1) { clear: none; }
 }
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
