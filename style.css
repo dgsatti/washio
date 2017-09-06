@@ -1,15 +1,15 @@
 .itemlist {
-background-color: #ffffff
 max-width: 630px;
 margin: 0 auto;
 letter-spacing: -.5em;
 }
 .itemlist li {
 display: inline-block;
-width: 200;
+width: 33.3%;
 padding: 5px;
 letter-spacing: 0;
 vertical-align: top;
+background-color: #ffffff;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
