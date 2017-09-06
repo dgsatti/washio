@@ -1,11 +1,14 @@
 .itemlist {
 max-width: 1024px;
 margin: 0 auto;
+letter-spacing: -.5em;
 }
 .itemlist li {
 display: inline-block;
 width: 33.333333%;
 padding: 10px;
+letter-spacing: 0;
+vertical-align: top;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
