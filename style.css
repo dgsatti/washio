@@ -1,11 +1,11 @@
 .itemlist {
-max-width: 960px;
+max-width: 630px;
 margin: 0 auto;
 letter-spacing: -.5em;
 }
 .itemlist li {
 display: inline-block;
-width: 250px
+width: 200px
 padding: 10px;
 letter-spacing: 0;
 vertical-align: top;
