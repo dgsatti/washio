@@ -107,7 +107,7 @@ li a {
    -------------------------------------------------- */
 
 .itemlist {
-  max-width: 1024px;
+  max-width: 960px;
   margin: 0 auto;
 }
 .itemlist dl,
