@@ -11,12 +11,6 @@ padding: 10px;
 .itemlist li:nth-child(3n+1) {
 clear: left;
 }
-@media screen and (max-width: 767px) {
-.itemlist li { flex-basis: 50%; }
-}
-@media screen and (max-width: 414px) {
-.itemlist li { flex-basis: 100%; }
-}
 .itemlist dl, .itemlist dd { margin: 0; }
 .itemlist dl { text-align: right; }
 .itemlist dt, .itemlist .txt { text-align: left; }
