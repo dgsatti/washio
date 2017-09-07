@@ -20,4 +20,5 @@ clear: left;
 .itemlist dt, 
 .itemlist .txt { text-align: left; font-size: .8em; font-weight: 500; }
 .itemlist dt { font-size: .9em; font-weight: 700; }
-.itemlist .price { display: inline-block; padding: ..5em; background: #eee; font-size: .9em;  font-weight: 500; font-family: Hiragino Kaku Gothic Pro;}
+.itemlist .price { display: inline-block; padding: .1em .5em; background: #eee;
+ font-size: .9em;  font-weight: 500; font-face: Hiragino Kaku Gothic Pro; }
