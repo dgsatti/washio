@@ -7,6 +7,7 @@ letter-spacing: 0em;
 display: inline-block;
 width: 30%;
 padding: 9px;
+margin-bottom: 5px;
 letter-spacing: 0;
 vertical-align: top;
 background-color: #ffffff;
@@ -19,6 +20,6 @@ clear: left;
 .itemlist dl { text-align: right; }
 .itemlist dt, 
 .itemlist .txt { text-align: left; font-size: .8em; font-weight: 500; }
-.itemlist dt { font-size: .9em; font-weight: 700; }
+.itemlist dt { font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: MS_ゴシックP; }
