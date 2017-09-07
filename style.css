@@ -9,6 +9,7 @@ width: 200px;
 padding: 15px;
 letter-spacing: 0;
 vertical-align: top;
+background-color: #ffffff;
 }
 .itemlist li:nth-child(3n+1) {
 clear: left;
