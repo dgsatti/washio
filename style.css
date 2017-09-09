@@ -23,3 +23,8 @@ clear: left;
 .itemlist dt { font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: MS_ゴシックP; }
+
+.itembox p{
+ display:inline-block;
+ vertical-align:top;
+}
