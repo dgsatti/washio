@@ -26,5 +26,5 @@ clear: left;
 
 .itembox p{
  display:inline-block;
- vertical-align:top;
+ vertical-align:middle;
 }
