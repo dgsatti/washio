@@ -24,7 +24,20 @@ clear: left;
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: MS_ゴシックP; }
 
-.itembox p{
- display:inline-block;
- vertical-align:middle;
+.itembox {
+    background: #FFF;
+    padding: 10px;
+    overflow: hidden;
+}
+.item_image {
+    float: left;
+    margin-right: 10px;
+}
+.item__summary {
+    overflow: hidden;
+}
+.media__heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
