@@ -19,7 +19,7 @@ ol dt:before{
   display:inline-block;
   background: #74c2f8;
   color: white;
-  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-family: Arial;
   font-weight:bold;
   font-size: 18px;
   left: 0em;
