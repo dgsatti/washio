@@ -6,7 +6,7 @@ ol{
 
 ol dt{
   position: relative;
-  line-height: 1em;
+  line-height: 1.5em;
   padding: 0em 0em 0em 23px;
 }
 
@@ -17,18 +17,18 @@ ol dt:before{
   content: counter(number);
   /*数字のデザイン変える*/
   display:inline-block;
-  background: #666666;
+  background: #777777;
   color: white;
-  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-family: Arial;
   font-weight:bold;
   font-size: 18px;
   left: 0em;
-  width: 20px;
+  width: 23px;
   height: 20px;
-  line-height: 20px;
+  line-height: 21px;
   text-align:center;
   /*以下上下中央寄せのため*/
-  top: 11px;
+  top: 14px;
   -moz-transform: translateY(-50%);
   	-webkit-transform: translateY(-50%);
   	-o-transform: translateY(-50%);
@@ -57,7 +57,7 @@ clear: left;
 .itemlist dd { margin: ; }
 .itemlist dl { text-align: right; }
 .itemlist dt, 
-.itemlist .txt { text-align: left; font-size: .8em; font-weight: 500; }
+.itemlist .txt { padding-left: 26px; text-align: left; font-size: .8em; font-weight: 500; }
 .itemlist dt { font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: MS_ゴシックP; }
@@ -68,7 +68,7 @@ clear: left;
     overflow: hidden;
 }
 .item_image {
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 .item__summary {
