@@ -43,7 +43,7 @@ margin-top: 5px;
 letter-spacing: 0em;
 }
 .itemlist li {
-display: table-cell;
+display: inline-block;
 width: 30%;
 padding: 9px;
 margin-bottom: 5px;
