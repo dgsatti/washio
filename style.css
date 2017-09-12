@@ -68,7 +68,7 @@ clear: left;
     padding: 10px;
     overflow: hidden;
 }
-img.item_image {
+.item_image {
     float: right;
     margin-right: 10px;
 }
