@@ -68,10 +68,10 @@ clear: left;
     padding: 10px;
     overflow: hidden;
 }
-.item_image {
+img.item_image {
     float: right;
     margin-right: 10px;
 }
-.item__summary {
+dl.item__summary {
     overflow: hidden;
 }
