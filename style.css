@@ -4,6 +4,10 @@ ol{
   padding:0em;
 }
 
+.itemlist2{
+  counte-reset: section 20;
+}
+
 ol dt{
   position: relative;
   line-height: 1.5em;
