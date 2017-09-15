@@ -1,7 +1,8 @@
 ol{
   counter-reset: number; /*数字をリセット*/
   list-style-type: none!important; /*数字を一旦消す*/
-  padding:0em;
+  margin:0;
+  padding:0;
 }
 
 ol dt{
