@@ -76,3 +76,37 @@ clear: left;
 dl.item__summary {
     overflow: hidden;
 }
+
+ol.itemlist2{
+  counter-reset: number 20; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  margin:0;
+  padding:0;
+}
+
+.itemlist2 {
+max-width: 630px;
+margin: 0 auto;
+margin-top: 5px;
+letter-spacing: 0em;
+}
+.itemlist2 li {
+display: inline-block;
+width: 30%;
+padding: 9px;
+margin-bottom: 5px;
+letter-spacing: 0;
+vertical-align: top;
+background-color: #ffffff;
+}
+.itemlist2 li:nth-child(3n+1) {
+clear: left;
+}
+.itemlist2 dl, 
+.itemlist2 dd { margin: ; }
+.itemlist2 dl { text-align: right; }
+.itemlist2 dt, 
+.itemlist2 .txt { padding-left: 7px; text-align: left; font-size: 11px; font-weight: 500; }
+.itemlist2 dt { padding-left: 27px; font-size: .9em; font-weight: 700; padding-top : 8px; }
+.itemlist2 .price { display: inline-block; padding: .1em .5em; background: #eee;
+ font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
