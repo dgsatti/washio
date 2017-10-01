@@ -216,3 +216,20 @@ clear: left;
 .itemlist5 dt { padding-left: 27px; font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist5 .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
+
+.order {
+　　width: 690px;
+  　background: #FFFFFF;
+　　overflow: hidden;
+　　_zoom: 1;
+　　border: 1px solid #00ced1;
+　　padding: 15px;
+}
+.order .img {
+　　padding-right: 15px;
+　　float: left;
+}
+.order .txt {
+　　overflow: hidden;
+　　_zoom: 1;
+}
