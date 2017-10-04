@@ -242,5 +242,6 @@ ul{
 
 .icon{
     float: left;
-    margin: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
 }
