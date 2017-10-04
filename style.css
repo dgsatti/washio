@@ -239,3 +239,8 @@ ul{
   padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
   border: solid 2px gray;/*線の種類 太さ 色*/
 }
+
+.icon{
+    float: left;
+    padding: 22m;
+ {
