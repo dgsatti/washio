@@ -235,9 +235,10 @@ clear: left;
 }
 
 ul.chumon{
-  background: #fcfcfc;/*背景色*/
-  padding: 0.5em 0.5em 0.5em 0em;/*ボックス内の余白*/
-  border: solid 2px #87cefa;/*線の種類 太さ 色*/
+  background: #fcfcfc;
+  padding: 0.5em 0.5em 0.5em 0em;
+  border: solid 2px #87cefa;
+  height: 10em;
 }
 
 .icon{
