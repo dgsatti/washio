@@ -241,7 +241,7 @@ clear: left;
   height: auto;
 }
 
-.chumon img {
+.chumon .icon {
 display: inline-block;
 vertical-align: middle;
 *zoom: 1; /* for IE6-7 */
