@@ -234,14 +234,23 @@ clear: left;
 　　_zoom: 1;
 }
 
-ul.chumon{
+.chumon{
   background: #fcfcfc;
   padding: 0.5em 0.5em 0.5em 0em;
   border: solid 2px #87cefa;
-  height: 10em;
+  height: auto;
 }
 
-.icon{
-    float: left;
-    padding: 1em;
+.chumon img {
+display: inline-block;
+vertical-align: middle;
+*zoom: 1; /* for IE6-7 */
+*display: inline; /* for IE6-7 */
+}
+.chumon .txt {
+display: inline-block;
+vertical-align: middle;
+width:250px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
+*zoom: 1; /* for IE6-7 */
+*display: inline; /* for IE6-7 */
 }
