@@ -250,7 +250,7 @@ vertical-align: middle;
 .chumon .txt {
 display: inline-block;
 vertical-align: middle;
-width:250px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
+width:600px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
 *zoom: 1; /* for IE6-7 */
 *display: inline; /* for IE6-7 */
 }
