@@ -256,4 +256,4 @@ width:600; /* 幅の指定がない場合、改行が必要な幅を超えると
 *display: inline; /* for IE6-7 */
 }
 
-dd.price:after {content:"(税抜)";}
+dd.price:before {content:"(税込)";}
