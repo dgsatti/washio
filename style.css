@@ -109,7 +109,7 @@ clear: left;
 .itemlist2 dt, 
 .itemlist2 .txt { padding-left: 7px; text-align: left; font-size: 11px; font-weight: 500; }
 .itemlist2 dt { padding-left: 27px; font-size: .9em; font-weight: 700; padding-top : 8px; }
-.itemlist2 .price { display: inline-block; padding: .1em .5em; background: #eee;
+.itemlist2 .price .price-non { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
 
 
@@ -257,4 +257,3 @@ width:600; /* 幅の指定がない場合、改行が必要な幅を超えると
 }
 
 dd.price:after {content:"(税込)";}
-dd.price-non:after {content:"";}
