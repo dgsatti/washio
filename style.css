@@ -111,8 +111,7 @@ clear: left;
 .itemlist2 dt { padding-left: 27px; font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist2 .price { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
-.itemlist2 .price-non { display: inline-block; padding: .1em .5em; background: #eee;
- font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
+
 
 
 ol.itemlist3{
@@ -147,6 +146,8 @@ clear: left;
 .itemlist3 .txt { padding-left: 7px; text-align: left; font-size: 11px; font-weight: 500; }
 .itemlist3 dt { padding-left: 27px; font-size: .9em; font-weight: 700; padding-top : 8px; }
 .itemlist3 .price { display: inline-block; padding: .1em .5em; background: #eee;
+ font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
+.itemlist3 .price-non { display: inline-block; padding: .1em .5em; background: #eee;
  font-size: .9em;  font-weight: 500; font-face: 'MS_ゴシックP'; }
 
 
