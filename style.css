@@ -79,7 +79,7 @@ dl.item__summary {
 
 
 ol.itemlist2{
-  counter-reset: number 15; /*数字をリセット*/
+  counter-reset: number 13; /*数字をリセット*/
   list-style-type: none!important; /*数字を一旦消す*/
   margin:0;
   padding:0;
@@ -115,7 +115,7 @@ clear: left;
 
 
 ol.itemlist3{
-  counter-reset: number 22; /*数字をリセット*/
+  counter-reset: number 20; /*数字をリセット*/
   list-style-type: none!important; /*数字を一旦消す*/
   margin:0;
   padding:0;
@@ -152,7 +152,7 @@ clear: left;
 
 
 ol.itemlist4{
-  counter-reset: number 29; /*数字をリセット*/
+  counter-reset: number 27; /*数字をリセット*/
   list-style-type: none!important; /*数字を一旦消す*/
   margin:0;
   padding:0;
@@ -187,7 +187,7 @@ clear: left;
 
 
 ol.itemlist5{
-  counter-reset: number 34; /*数字をリセット*/
+  counter-reset: number 32; /*数字をリセット*/
   list-style-type: none!important; /*数字を一旦消す*/
   margin:0;
   padding:0;
